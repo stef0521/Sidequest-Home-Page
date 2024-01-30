@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#9000ce;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.navlist {
+    padding: 0px 50px;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 50px;
+    background-color: #44AE56;
+    color: white;
+    height: 80px;
+    width: auto;
+    font-family: pixellari;
+    font-size: 20px;
+}
+
+.pagein {
+    margin: 10px;
+    font-family: pixellari;
+    color: white;
+    font-size: 20px;
+}
+
+.pageli {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.htcont {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*border: solid red 5px;*/
+    width: 600px;
+}
+
+.htcont h1 {
+    margin-bottom: 10px;
+    color: #44AE56;
+    font-family: golden age;
+    font-size: 60px;
+}
+
+.htcont p {
+    color: white;
+    font-family: pixellari;
+    font-size: 20px;
+}
+
+.oscont {
+    margin-bottom: 50px;
+    margin-left: 150px;
+    width: 800px;
+    /*border: solid blue 5px; */
+}
+
+.oscont h1 {
+    font-family: golden age;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.imgcont {
+    gap: 20px;
+    display: flex;
+}
+
+.imgcont p {
+    font-family: pixellari;
+    color: white;
+}
+
+.button {
+    font-family: golden age;
+    background-color: #44AE56;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.tcont {
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.tcont h1 {
+    font-family: golden age;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.textcont {
+    display: flex;
+    gap: 20px;
+}
+
+.textcont p {
+    width: 400px;
+    font-family: pixellari;
+    color: white;
+}
+
+.bcont {
+    display: flex;
+    flex-direction: column;
+}
+
+.fcont {
+    margin-left: 150px;
+    margin-bottom: 50px; 
+}
+
+.fcont h1 {
+    font-family: golden age;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px; 
+}
+
+.fcont p {
+    font-family: pixellari;
+    color: white;
+    margin-bottom: 15px;
+}
